@@ -1,0 +1,29 @@
+{
+  "name": "casa-de-cambio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint ./src",
+    "dev": "vite --open",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasbacelar/casa-de-cambio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/douglasbacelar/casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/douglasbacelar/casa-de-cambio#readme",
+  "dependencies": {
+    "eslint-config-trybe-frontend": "^1.4.0",
+    "sweetalert2": "^11.7.0",
+    "vite": "^4.0.4"
+  }
+}
