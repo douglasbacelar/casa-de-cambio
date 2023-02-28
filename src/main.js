@@ -6,11 +6,7 @@ const sendButton = document.querySelector('#send-button');
 const sectionMain = document.getElementById('section-main');
 const divMain = document.getElementById('div-main');
 
-// const clearMain = () => {
-//   mainContent.innerHTML = '';
-// };
-// console.log(coinInput.value);
-
+const number = 3;
 sendButton.addEventListener('click', (event) => {
   event.preventDefault();
   divMain.innerHTML = '';
@@ -32,7 +28,8 @@ sendButton.addEventListener('click', (event) => {
       object.forEach((coin) => {
         const div = document.createElement('div');
         div.className = 'manyCoins';
-        div.innerHTML = `${coin[0]}:<span class='coinValue'>${coin[1].toFixed(3)}</span>`;
+        div.innerHTML = `${coin[0]}:<span class='coinValue'>
+        ${coin[1].toFixed(number)}</span>`;
         sectionMain.appendChild(div);
       });
     })
