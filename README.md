@@ -17,7 +17,7 @@ The exchange house project is an application that seeks to convert the rate of o
 ## 🛜 Installing the repository on your machine
 
 ```js
-git clone git@github.com:douglasbacelar/casa-de-cambio.gitt
+git clone git@github.com:douglasbacelar/casa-de-cambio.git
 npm install
 ```
 
